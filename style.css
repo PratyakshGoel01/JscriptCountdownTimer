@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Lato", sans-serif;
+    background-image: url(image/wi6971ae4e4e9-88b4-412d-905d-ccfd081c19cf2.jpg);
+    background-size: 100% 100%;
+    
+}
+#box {
+    position: relative;
+    margin: 5% auto;
+    width: 900px;
+    height: 500px;
+    background: rgba(235, 255, 0, 0.24);
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 100px;
+    background-image:url(image/german_shepherd_PNG50.png);
+    background-size: 70% 70%;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+h1{
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 2rem;
+    text-align: center;
+}
+.Coming soon {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.day,.hour,.minute,.second{
+    font-size: 2rem;
+}
