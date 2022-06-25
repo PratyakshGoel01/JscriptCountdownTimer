@@ -24,9 +24,10 @@ body{
     background-position: left bottom;
 }
 h1{
+    font-family: 'Pacifico', cursive;
     font-size: 3rem;
     font-weight: bold;
-    padding: 2rem;
+    padding: 0rem;
     text-align: center;
 }
 .Coming soon {
@@ -35,9 +36,9 @@ h1{
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    font-family: 'Oswald', sans-serif;
 }
 .countdown{
+    font-family: 'Pacifico', cursive;
     display: flex;
     justify-content: space-around;
     text-align: center;
